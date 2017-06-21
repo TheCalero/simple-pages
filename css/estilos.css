@@ -1,0 +1,222 @@
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: verdana, arial,geneva;
+}
+.contenedor{
+    width: 76%;
+    margin: 0 auto;
+    padding: 0;
+}
+div.contenedor:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+div.logo{
+    display: table;
+    font-family: cursive;
+}
+div div.logo1{
+    text-transform: uppercase;
+    font-size: 3.4rem;
+    line-height: 60px;
+    letter-spacing: -4px;
+    display: table-row;
+    font-weight: bold;
+}
+div#letras{
+    
+    display: inline;
+    
+}
+div#letras span#a{
+    color: #eda400;
+}
+div#letras span#b{
+    color: #00b9e5;
+}
+div#letras span#c{
+    color: #db008d;
+}
+
+div#eslogan{
+    font-variant: small-caps;
+    display: table-row;
+    text-align: right;
+}
+.ancho{
+    width: 100%;
+}
+.menu{
+    background-color: #00b9e5;
+}
+nav{
+    width: 76%;
+    margin: 0 auto;
+    position: relative;
+}
+nav > ul > li {
+    float: left;
+}
+nav ul li a{
+    display: inline-block;
+    color: #ffffff;
+    width: 150px;
+    padding: 8%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+}
+nav ul li:hover{
+    background-color: #db008d;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+nav ul:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+nav ul ul{
+    position: absolute;
+    top: 100%; 
+    display: none; 
+    background-color: rgba(244, 68, 182,0.7);
+}
+
+nav ul{
+    list-style: none;
+}
+.menu{
+    margin: 20px 0 33px 0;
+}
+main{
+    width: 70%;
+    float: left;
+    padding-right: 32px;
+}
+aside{
+    width: 30%;
+    float: right;
+}
+aside.lateral ul{
+    list-style: none;
+}
+aside.lateral ul li {
+    padding: 10px;
+    cursor: pointer;
+}
+aside.lateral ul li:hover{
+    background-color: rgba(244, 68, 182,1);
+}
+aside.lateral ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(244, 68, 182,1);
+}
+aside.lateral ul li:hover > a {
+    color: #ffffff;
+}
+article{
+    margin-bottom: 30px;
+}
+h2{
+    color: #00b9e5;
+    margin-bottom: 20px;
+}
+article img{
+    width: 50%;
+    float: left;
+    margin: 0 25px 12px 0;
+}
+article p{
+    line-height: 1.7;
+    text-align: justify;
+    margin-bottom: 5px;
+}
+div.di{
+    display: block;
+    position: relative;
+}
+
+a.Boton_siguiente {
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    font: normal normal bold 16px/normal "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    background: #eda400;
+}
+
+.Boton_siguiente:hover {
+    -webkit-box-shadow: 0 0 9px 2px rgba(0,0,0,0.5) ;
+    box-shadow: 0 0 9px 2px rgba(0,0,0,0.5) ;
+    text-shadow: 2px 2px 7px rgba(0,0,0,0.5) ;
+}
+.Boton_siguiente:active {
+    -webkit-border-radius: 47px;
+    border-radius: 47px;
+    background: rgba(237, 164, 0, 0.7);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+/*Pie de página               */
+div.nosotros{
+    float: left;
+    width: 50%;
+}
+
+
+footer div div.menu{
+    float: right;
+    width: 50%;
+    margin-top: 20px;
+}
+footer.menu{
+    margin: 0;
+}
+
+footer div div.menu nav ul li a{
+    width: 100%;
+    font-size: 14px;
+    padding: 6px 12px;;
+}
+footer nav ul{
+    display: block;
+}
+
+footer div div.nosotros h2{
+    padding: 15px;
+    margin: 0;
+    color: aliceblue;
+}
+footer div div.nosotros p{
+    margin: 0;
+}
+footer p.copy{
+    text-align: center;
+    padding: 9px;
+    color: #ffffff;
+    margin: 13px 0 0 0;
+}
